@@ -34,4 +34,11 @@ public class MainMenuManager : MonoBehaviour
         }
         
     }
+    public void CloseWho()
+    {
+        if (Who.activeSelf)
+        {
+            Who.SetActive(false);
+        }
+    }
 }
