@@ -17,7 +17,7 @@ public class CameraSC : MonoBehaviour
 
     private void Start()
     {
-        transform.position = new Vector3(-18, 7, -1);
+        
     }
     private void Update()
     {
